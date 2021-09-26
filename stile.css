@@ -1,0 +1,172 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.inner-header {
+	background: #453e37;
+	height: 150px;
+	width: 100%;
+	margin-top: auto;
+    margin-bottom: auto 
+	
+	
+}
+
+
+.inner-header1 {
+	background: #453e37;
+	height: 150px;
+	width: 200px;
+	position: absolute;
+    top: 75px;
+    left: 93%;
+    -ms-transform: (top: 75px;left: 93%);
+    transform: translate(-50%, -50%);
+	
+}
+
+
+
+
+
+
+
+.inner-content {
+	background: #e4d5d5;
+	width: 60%;
+	min-height: 600px;
+	
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.inner-footer {
+	background: #453e37;
+	height: 150px;
+	width: 100%;
+	margin-top: 120px;
+	float: bottom;
+}
+
+.register {
+	display: inline-block;
+	background: #a4978c;
+	font-weight: 700;
+	padding: .5em 2em;
+	outline: none;
+	border: 2px solid;
+	border-radius: 20px;
+	transition: 0.2s;
+	margin-left: 20px;
+    
+	margin-bottom: 15px;
+	margin-top: 30px;
+	user-select: none; /* Убираем текстовое выделение */
+	text-decoration: none;	/* Убираем подчеркивание */
+	outline: none; /* Убираем контур вокруг ссылки */
+	
+    
+    
+}
+
+.register:hover { background: rgba(255,255,255,.2); }
+.register:active { 
+	background: white;
+	
+}
+
+.song_up {
+	display: inline-block;
+	background: #a4978c;
+	font-weight: 700;
+	padding: .5em 2em;
+	outline: none;
+	border: 2px solid;
+	border-radius: 20px;
+	transition: 0.2s;
+	
+	margin-left: 52.5px;
+	
+}
+
+.song_up:hover { background: rgba(255,255,255,.2); }
+.song_up:active { background: white; }
+
+
+
+body {
+    background: #c7b39b url(images/bg.jpg) 0 0 no-repeat; /* Цвет фона и путь к файлу */
+    color: black; /* Цвет текста */
+	width: 100%;
+	
+}
+
+.menu {
+	display: inline-block;
+	background: #a4978c;
+	font-weight: 700;
+	padding: 15em 2em;
+	outline: none;
+	border: 2px solid;
+	border-radius: 1px;
+	transition: 0.2s;
+	float: right;
+	margin-top: auto;
+    margin-bottom: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}	
+
+.menu:hover { background: rgba(255,255,255,.2); }
+.menu:active { background: white; }
+
+h1 {
+	
+	text-align: center;
+	
+}
+
+
+
+.р1 {
+	margin-right: 15px;
+	
+	
+}
+
+a {
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+.logo2 {
+	width: 40%;
+	
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	
+	
+}
+
+.idxcity {
+	width: 40%;
+	margin: 9px 9px 9px 9px;
+	float:left;
+}
+
+.p1 {
+	margin-left: 10px;style="text-indent: 2px;
+}
+
+.p3 {
+	text-indent: 15px;
+	
+}
+			
