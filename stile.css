@@ -58,6 +58,7 @@
 	border: 9px solid;
 	margin-left: 30px;
     margin-right: auto;
+	margin-bottom: 10px;
 }
 
 .inner-content-block2 {
@@ -70,7 +71,21 @@
 	border: 9px solid;
 	margin-left: 30px;
     margin-right: auto;
+	margin-bottom: 10px;
 }
+.inner-content-block3 {
+	background: #e4d5d5;
+	width: 90%;
+	
+	
+	height: 175px;
+	border-radius: 20px;
+	border: 9px solid;
+	margin-left: 30px;
+    margin-right: auto;
+	margin-bottom: 10px;
+}
+
 
 .inner-footer {
 	background: #453e37;
@@ -82,7 +97,7 @@
 
 .register {
 	display: inline-block;
-	background: #a4978c;
+	background: linear-gradient(20deg, #8B4513, #FFE4C4);
 	font-weight: 700;
 	padding: .5em 2em;
 	outline: none;
@@ -109,7 +124,7 @@
 
 .song_up {
 	display: inline-block;
-	background: #a4978c;
+	background: linear-gradient(20deg, #8B4513, #FFE4C4);
 	font-weight: 700;
 	padding: .5em 2em;
 	outline: none;
@@ -148,9 +163,9 @@ body {
 
 .menu {
 	display: inline-block;
-	background: #a4978c;
+	background: linear-gradient(20deg, #8B4513, #FFE4C4);
 	font-weight: 300px;
-	padding: 300% 1em;
+	padding: 20em 1em;
 	outline: none;
 	border: 2px solid;
 	border-radius: 1px;
@@ -158,6 +173,8 @@ body {
 	user-select: none; /* Убираем текстовое выделение */
 	text-decoration: none;	/* Убираем подчеркивание */
 	outline: none; /* Убираем контур вокруг ссылки */
+	margin-top: auto;
+    margin-bottom: auto;
 	
 }	
 
@@ -211,4 +228,35 @@ a {
 	text-indent: 15px;
 	display: inline-block;
 }
-			
+		
+.tema {
+	width: 120px;
+	display: inline-block;
+	float: top;
+	
+	margin-top: 10px;
+     
+	
+}
+.play {
+	display: inline-block;
+	
+	background: linear-gradient(20deg, #8B4513, #FFE4C4);
+	font-weight: 700;
+	padding: .5em 2em;
+	outline: none;
+	border: 1px solid;
+	border-radius: 0px;
+	transition: 0.2s;
+	float: right;
+    
+	margin-bottom: ;
+	margin-top: ;
+	user-select: none; /* Убираем текстовое выделение */
+	text-decoration: none;	/* Убираем подчеркивание */
+	outline: none; /* Убираем контур вокруг ссылки */
+}
+.play:hover { background: rgba(255,255,255,.2); }
+.play:active { background: white; }
+
+		
